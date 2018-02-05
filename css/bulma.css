@@ -23,7 +23,6 @@
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
-p,
 ol,
 ul,
 li,
@@ -38,7 +37,6 @@ textarea,
 pre,
 iframe,
 hr,
-h1,
 h2,
 h3,
 h4,
@@ -48,6 +46,17 @@ h6 {
   padding: 0;
 }
 
+p{
+  font-size: 16px;
+  margin-top:1.5em;
+  margin-left: 6em;
+  margin-right: 6em;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+
 h1,
 h2,
 h3,
@@ -56,6 +65,17 @@ h5,
 h6 {
   font-size: 100%;
   font-weight: normal;
+}
+
+h1{
+  font-size: 32px;
+  margin-left: 3em;
+  margin-right: 3em;  
+}
+
+h4{
+  margin-left: 4.8em;
+  margin-right: 4.8em;  
 }
 
 ul {
@@ -1773,7 +1793,7 @@ input[type="submit"].button {
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .content h1,
@@ -1782,9 +1802,10 @@ input[type="submit"].button {
 .content h4,
 .content h5,
 .content h6 {
+  margin-top: 0em;
   color: #666666;
-  font-weight: 400;
-  line-height: 1.125;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .content h1 {
@@ -4826,6 +4847,7 @@ a.navbar-item:hover,
 
 a.navbar-item.is-active {
 border-bottom: solid;
+border-bottom-width: 2px;
 border-bottom-color: transparent;
 background-color: transparent;
 color: #2196F3;
