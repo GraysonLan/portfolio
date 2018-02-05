@@ -20,6 +20,13 @@
   }
 }
 
+::-moz-selection {
+ background: #4a4a4a; color: white;
+}
+::selection {
+ background: #4a4a4a; color: white;
+}
+
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
