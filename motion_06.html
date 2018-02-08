@@ -25,8 +25,7 @@
     <link rel='apple-touch-icon-precomposed' sizes="120x120" href="img/favicon.png" />
     <link rel='apple-touch-icon-precomposed' sizes="144x144" href="img/favicon.png" />
     <link rel='apple-touch-icon-precomposed' sizes="152x152" href="img/favicon.png" />
-
-   
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -123,7 +122,6 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <nav class="navbar">
-                    
                     <div id="nav-toggle" class="navbar-burger" data-target="nav-menu">
                       <span></span>
                       <span></span>
@@ -132,7 +130,7 @@
 
                     <div id="nav-menu" class="navbar-menu">
                         <div class="navbar-start">
-                          
+                            
                           <a class="navbar-item " href="index.html" style="text-decoration:none">
                             Grayson Lan
                           </a>
@@ -144,12 +142,12 @@
                           <a class="navbar-item " href="dailyui.html" style="text-decoration:none">
                             Daily UI
                           </a>
-                          
-                          <a class="navbar-item is-active" href="dailygraphic.html" style="text-decoration:none">
+
+                          <a class="navbar-item " href="dailygraphic.html" style="text-decoration:none">
                             Daily Graphic
                           </a>
       
-                          <a class="navbar-item " href="dailymotion.html" style="text-decoration:none">
+                          <a class="navbar-item is-active" href="dailymotion.html" style="text-decoration:none">
                             Daily Motion
                           </a>
 
@@ -168,59 +166,27 @@
           <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                      <div class="col-lg-8">
 
-                        <div id="basicExample" class="justified-gallery">
+                        <div class="content">
+                          <h1>Tentacle</h1>
 
 
-                          <a href="">
-                            <img alt="Moon" src="img/dailygraphic/11.jpg"/>  
-                          </a>
 
-                          <a href="">
-                            <img alt="Memory" src="img/dailygraphic/10.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Worldwide" src="img/dailygraphic/09.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Warning" src="img/dailygraphic/08.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Target" src="img/dailygraphic/07.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Cube" src="img/dailygraphic/06.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Girl and Forest" src="img/dailygraphic/05.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="1%" src="img/dailygraphic/04.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Virus" src="img/dailygraphic/03.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Twist the Space" src="img/dailygraphic/02.jpg"/>  
-                          </a>
-
-                          <a href="">
-                            <img alt="Truman" src="img/dailygraphic/01.jpg"/>  
-                          </a>
+                          <div class="wrapper">
+                            <div class="h_iframe">  
+                              <img class="ratio" src="img/16x9.png"/>
+                                  <iframe src="https://www.youtube.com/embed/EGl4iKZXs_U?rel=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                          </div>
 
                         </div>
+                        
+                      </div>
 
                         
                         
-                  </div>
+                    </div>
                 </div>            
           </div>
         <!-- /#page-content-wrapper -->
@@ -240,6 +206,7 @@
 
 
 
+
     <!-- Menu Toggle Script -->
     <script>
     $("#sidemenu-toggle").click(function(e) {
@@ -252,15 +219,6 @@
     $("#sidenav-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
-    <script>
-    $('#basicExample').justifiedGallery({
-    lastRow : 'left',
-    rowHeight : 200,
-    margins : 5,
-
     });
     </script>
     
