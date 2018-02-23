@@ -35,6 +35,8 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
     <link href="css/justifiedGallery.css" rel="stylesheet">
+
+    <link href="css/swipebox.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -169,66 +171,66 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                        <div id="basicExample" class="justified-gallery">
+                        <div id="swipebox" class="justified-gallery">
 
 
-                          <a href="">
+                          <a href="img/dailygraphic/12.jpg" class="swipebox" rel="graphic">
                             <img alt="Birth-Connect" src="img/dailygraphic/12.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/13.jpg" class="swipebox" rel="graphic">
                             <img alt="Birth-Diamond" src="img/dailygraphic/13.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/14.jpg" class="swipebox" rel="graphic">
                             <img alt="Birth-Colorful" src="img/dailygraphic/14.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/11.jpg" class="swipebox" rel="graphic">
                             <img alt="Moon" src="img/dailygraphic/11.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/10.jpg" class="swipebox" rel="graphic">
                             <img alt="Memory" src="img/dailygraphic/10.jpg"/>  
                           </a>
 
-						  <a href="">
+						              <a href="img/dailygraphic/15.jpg" class="swipebox" rel="graphic">
                             <img alt="Lighting Planet" src="img/dailygraphic/15.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/09.jpg" class="swipebox" rel="graphic">
                             <img alt="Worldwide" src="img/dailygraphic/09.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/08.jpg" class="swipebox" rel="graphic">
                             <img alt="Warning" src="img/dailygraphic/08.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/07.jpg" class="swipebox" rel="graphic">
                             <img alt="Target" src="img/dailygraphic/07.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/06.jpg" class="swipebox" rel="graphic">
                             <img alt="Cube" src="img/dailygraphic/06.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/05.jpg" class="swipebox" rel="graphic">
                             <img alt="Girl and Forest" src="img/dailygraphic/05.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/04.jpg" class="swipebox" rel="graphic">
                             <img alt="1%" src="img/dailygraphic/04.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/03.jpg" class="swipebox" rel="graphic">
                             <img alt="Virus" src="img/dailygraphic/03.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/02.jpg" class="swipebox" rel="graphic">
                             <img alt="Twist the Space" src="img/dailygraphic/02.jpg"/>  
                           </a>
 
-                          <a href="">
+                          <a href="img/dailygraphic/01.jpg" class="swipebox" rel="graphic">
                             <img alt="Truman" src="img/dailygraphic/01.jpg"/>  
                           </a>
 
@@ -253,6 +255,7 @@
     
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.swipebox.js"></script>
 
 
 
@@ -272,13 +275,23 @@
     </script>
 
     <script>
-    $('#basicExample').justifiedGallery({
-    lastRow : 'left',
+
+    $('#swipebox').justifiedGallery({
+    lastRow : 'left', 
     rowHeight : 200,
+    rel : 'graphic', //replace with 'gallery1' the rel attribute of each link
     margins : 5,
 
     });
     </script>
+
+    <script type="text/javascript">
+      ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+      } )( jQuery );
+</script>
     
 
 </body>
