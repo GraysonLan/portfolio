@@ -5084,7 +5084,7 @@ a.nav-title{
   }
   a.navbar-item.is-active:not(:hover),
   .navbar-link.is-active:not(:hover) {
-   border-bottom: solid;
+   border-bottom:;
    border-bottom-color: #2196F3;
    background-color: transparent;
    color: #2196F3;
@@ -5092,7 +5092,7 @@ a.nav-title{
 
   a.navbar-item.is-active:hover,
   .navbar-link.is-active:hover {
-   border-bottom: solid;
+   border-bottom:;
    border-bottom-color: #2196F3;
    background-color: #EFEFEF;
    color: #2196F3;
