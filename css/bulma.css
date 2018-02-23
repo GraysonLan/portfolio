@@ -4912,14 +4912,14 @@ a.nav-title{
   margin: 0.5rem 0;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1160px) {
   .navbar-brand .navbar-item {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: left;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: ;
   }
   .navbar-menu {
     -webkit-box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
@@ -4931,7 +4931,7 @@ a.nav-title{
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1161px) {
   .navbar,
   .navbar-menu,
   .navbar-start,

@@ -1589,7 +1589,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width:;
   }
 }
 @media (min-width: 992px) {
@@ -4307,11 +4307,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  float: "left";
+  height: "50px";
+  padding: "15px 15px";
+  font-size: "18px";
+  line-height: "20px";
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
