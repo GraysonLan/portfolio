@@ -55,7 +55,7 @@ h6 {
 
 p{
   font-size: 16px;
-  margin-top:1.5em;
+  margin-top:;
   margin-left: 6em;
   margin-right: 6em;
   padding: 0;
@@ -1844,7 +1844,7 @@ input[type="submit"].button {
 
 .content h4 {
   font-size: 1.25em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
 }
 
 .content h5 {
@@ -8141,7 +8141,7 @@ label.panel-block:hover {
   
 p{
   font-size: 16px;
-  margin-top:1.5em;
+  margin-top:;
   margin-left: 2em;
   margin-right: 2em;
   padding: 0;
