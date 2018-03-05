@@ -4848,7 +4848,6 @@ a.nav-item:not(.button).is-tab.is-active {
 
 a.navbar-item:hover,
 .navbar-link:hover {
-  background-color: #EFEFEF;
   color: #333333;
 }
 
@@ -5094,7 +5093,6 @@ a.nav-title{
   .navbar-link.is-active:hover {
    border-bottom:;
    border-bottom-color: #2196F3;
-   background-color: #EFEFEF;
    color: #2196F3;
   }
 
